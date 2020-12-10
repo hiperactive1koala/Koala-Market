@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Koala Market</title>
+  </head>
+  <body>
+        <header id="header">
+          <img
+            id="header-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/4/49/Koala_climbing_tree.jpg"
+          />
+          <h1>Koala Market</h1>
+          <nav id="nav-bar">
+            <ul>
+              <li>
+                <a href="#form" class="nav-link">Email</a>
+              </li>
+              <li>
+                <a href="#video" class="nav-link">Video</a>
+              </li>
+              <li>
+                <a href="#price" class="nav-link">Prices</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+    
+        <div id="container">
+          <section class="form">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+              <p>
+                Sucbscribe Our Newsletter
+              </p>
+              <input
+                name="email"
+                type="email"
+                id="email"
+                placeholder="Enter your email adress"
+                required=""
+              /><br>
+              <input type="submit" id="submit" value="Send" class="bttn" />
+            </form>
+          </section>
+          <section class="video"> 
+          <div class="video-container">
+            <iframe
+              id="video"
+              width="720"
+              height="400"
+              src="https://www.youtube.com/embed/0stc0lV8iKA"
+              frameborder="0"
+              controls
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+          </section>
+          <div id="price">
+            <div class="card">
+              <div class="level">Lazy Koala</div>
+              <h2>800$</h2>
+              <ol>
+                <li>Sleeps</li>
+                <li>So Sleeps</li>
+                <li>Sleeps To Centuries</li>
+              </ol>
+              <button>BUY</button>
+            </div>
+            <div class="card">
+              <div class="level">Koala The Glutton</div>
+              <h2>1600$</h2>
+              <ol>
+                <li>Eats</li>
+                <li>Sleeps</li>
+                <li>Eats More</li>
+              </ol>
+              <button>BUY</button>
+            </div>
+            <div class="card">
+              <div class="level">Hiperactive Koala</div>
+              <h2>8000$</h2>
+              <ol>
+                <li>Sleeps</li>
+                <li>Learns HTML&CSS</li>
+                <li>Travelling To Other Trees</li>
+                <li>Eats</li>
+                <li>Of Course Sleeps More</li>
+              </ol>
+              <button>BUY</button>
+            </div>
+          </div>
+        </div>
+  </body>
+</html>
